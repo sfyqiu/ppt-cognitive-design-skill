@@ -1,331 +1,385 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Scientific Visualization System</title>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PPT Cognitive Design Skill</title>
 
 <style>
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
-    font-family:"Segoe UI",Arial,sans-serif;
-    height:100vh;
-    overflow:hidden;
 
-    background:
-        radial-gradient(circle at top left,#163d7a 0%,#0d1b2a 40%,#08111f 100%);
+    margin:0;
 
-    color:white;
+    background:#edf2f7;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    color:#1e293b;
+
 }
 
-/* 动态背景光晕 */
+/* =========================
+   HERO
+========================= */
 
-body::before{
-    content:"";
-    position:absolute;
-    width:700px;
-    height:700px;
+.hero{
 
-    background:rgba(0,140,255,0.15);
+    text-align:center;
 
-    filter:blur(120px);
+    padding-top:90px;
 
-    top:-200px;
-    left:-200px;
-
-    animation:float1 10s infinite alternate ease-in-out;
 }
 
-body::after{
-    content:"";
-    position:absolute;
-    width:600px;
-    height:600px;
+.title{
 
-    background:rgba(0,255,180,0.08);
+    font-size:64px;
 
-    filter:blur(120px);
+    font-weight:700;
 
-    bottom:-200px;
-    right:-200px;
+    color:#1747a6;
 
-    animation:float2 12s infinite alternate ease-in-out;
-}
-
-@keyframes float1{
-    from{
-        transform:translate(0,0);
-    }
-
-    to{
-        transform:translate(80px,50px);
-    }
-}
-
-@keyframes float2{
-    from{
-        transform:translate(0,0);
-    }
-
-    to{
-        transform:translate(-80px,-40px);
-    }
-}
-
-.container{
-
-    position:relative;
-
-    z-index:10;
-
-    height:100vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    padding:40px;
-}
-
-.panel{
-
-    width:100%;
-    max-width:1150px;
-
-    background:rgba(255,255,255,0.06);
-
-    border:1px solid rgba(255,255,255,0.08);
-
-    backdrop-filter:blur(18px);
-
-    border-radius:30px;
-
-    padding:70px;
-
-    box-shadow:
-        0 0 40px rgba(0,0,0,0.35);
-}
-
-.small-title{
-
-    font-size:14px;
-
-    letter-spacing:4px;
-
-    color:#79c0ff;
-
-    margin-bottom:24px;
-
-    text-transform:uppercase;
-}
-
-.main-title{
-
-    font-size:68px;
-
-    font-weight:800;
-
-    line-height:1.08;
-
-    margin-bottom:28px;
-}
-
-.highlight{
-
-    color:#66d9ff;
 }
 
 .subtitle{
 
-    font-size:22px;
-
-    color:rgba(255,255,255,0.82);
-
-    line-height:1.9;
-
-    max-width:820px;
-
-    margin-bottom:55px;
-}
-
-.flow{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:18px;
-
-    flex-wrap:wrap;
-
-    margin-bottom:60px;
-}
-
-.node{
-
-    padding:16px 28px;
-
-    border-radius:16px;
-
-    background:rgba(255,255,255,0.08);
-
-    border:1px solid rgba(255,255,255,0.12);
-
-    font-size:18px;
-
-    transition:0.3s;
-}
-
-.node:hover{
-
-    transform:translateY(-5px);
-
-    background:rgba(0,140,255,0.18);
-
-    box-shadow:
-        0 0 24px rgba(0,140,255,0.25);
-}
-
-.arrow{
+    margin-top:24px;
 
     font-size:28px;
 
-    color:#66d9ff;
+    color:#64748b;
+
+    line-height:1.8;
 }
+
+/* =========================
+   PIPELINE
+========================= */
+
+.pipeline{
+
+    margin-top:60px;
+
+    text-align:center;
+
+    font-size:22px;
+
+    color:#475569;
+
+    line-height:2;
+}
+
+/* =========================
+   GALLERY
+========================= */
+
+.gallery{
+
+    width:1300px;
+
+    margin:90px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3, 1fr);
+
+    gap:35px;
+
+}
+
+/* =========================
+   CARD
+========================= */
+
+.card{
+
+    background:white;
+
+    border-radius:28px;
+
+    padding:38px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,0.08);
+
+    transition:0.25s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.card-title{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:#1747a6;
+
+    margin-bottom:20px;
+
+}
+
+.card-type{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:#dbeafe;
+
+    color:#1d4ed8;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    margin-bottom:24px;
+
+}
+
+.card-description{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    color:#475569;
+
+    min-height:180px;
+}
+
+/* =========================
+   BUTTON
+========================= */
 
 .button{
 
     display:inline-block;
 
-    padding:20px 42px;
+    margin-top:30px;
 
-    border-radius:18px;
+    padding:16px 28px;
 
-    background:
-        linear-gradient(135deg,#2b6fff,#00b7ff);
+    background:#1747a6;
 
     color:white;
 
-    font-size:20px;
-
-    font-weight:700;
-
     text-decoration:none;
 
-    transition:0.3s;
+    border-radius:14px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:0.25s;
+
 }
 
 .button:hover{
 
-    transform:translateY(-4px);
+    background:#123a88;
 
-    box-shadow:
-        0 10px 30px rgba(0,140,255,0.35);
 }
+
+/* =========================
+   FOOTER
+========================= */
 
 .footer{
 
-    margin-top:55px;
+    text-align:center;
 
-    color:rgba(255,255,255,0.45);
+    padding-bottom:60px;
 
-    font-size:15px;
+    color:#94a3b8;
 
-    letter-spacing:1px;
-}
+    font-size:18px;
 
-@media(max-width:900px){
-
-    .main-title{
-        font-size:48px;
-    }
-
-    .subtitle{
-        font-size:18px;
-    }
-
-    .panel{
-        padding:45px;
-    }
 }
 
 </style>
+
 </head>
 
 <body>
 
-<div class="container">
+<!-- HERO -->
 
-<div class="panel">
+<div class="hero">
 
-<div class="small-title">
-DIGITAL AGRICULTURE · SCIENTIFIC VISUALIZATION
-</div>
+<div class="title">
 
-<div class="main-title">
-Agricultural Water-Soil Engineering
-<br>
-<span class="highlight">
-Scientific Visualization System
-</span>
+PPT Cognitive Design Skill
+
 </div>
 
 <div class="subtitle">
 
-Mechanism-driven digital presentation framework for
-Agricultural Water-Soil Engineering,
-Digital Agriculture,
-and Spatio-temporal Information Science.
+AI-native Cognitive Presentation Generation Framework
+
+<br><br>
+
+Reasoning → Narrative → Layout → Rendering
 
 </div>
 
-<div class="flow">
+</div>
 
-<div class="node">Microenvironment</div>
+<!-- PIPELINE -->
 
-<div class="arrow">→</div>
+<div class="pipeline">
 
-<div class="node">Rhizosphere Microbiome</div>
+Audience Reasoning
 
-<div class="arrow">→</div>
+↓
 
-<div class="node">Nitrogen Cycling</div>
+Narrative Planning
 
-<div class="arrow">→</div>
+↓
 
-<div class="node">Crop Yield</div>
+Semantic Layout Intelligence
 
-<div class="arrow">→</div>
+↓
 
-<div class="node">Digital Simulation</div>
+JSON Schema Rendering
+
+↓
+
+Executable AI Presentation System
+
+</div>
+
+<!-- GALLERY -->
+
+<div class="gallery">
+
+<!-- CARD 1 -->
+
+<div class="card">
+
+<div class="card-title">
+
+Teaching Slide
+
+</div>
+
+<div class="card-type">
+
+Educational Rendering
+
+</div>
+
+<div class="card-description">
+
+Cognitively optimized educational presentation rendering
+with semantic mechanism flow,
+GIS explanation blocks,
+and adaptive teaching hierarchy.
 
 </div>
 
 <a class="button"
-href="rendering/scientific_json_renderer.html">
 
-Open Scientific Mechanism Demo
+href="rendering/json_to_html_demo.html">
+
+Open Demo
 
 </a>
 
+</div>
+
+<!-- CARD 2 -->
+
+<div class="card">
+
+<div class="card-title">
+
+Scientific Mechanism
+
+</div>
+
+<div class="card-type">
+
+Scientific Rendering
+
+</div>
+
+<div class="card-description">
+
+AI-native scientific semantic rendering
+for mechanism-oriented research presentations,
+microbiome workflows,
+and nitrogen cycling visualization.
+
+</div>
+
+<a class="button"
+
+href="rendering/scientific_json_renderer.html">
+
+Open Demo
+
+</a>
+
+</div>
+
+<!-- CARD 3 -->
+
+<div class="card">
+
+<div class="card-title">
+
+JSON Rendering Engine
+
+</div>
+
+<div class="card-type">
+
+Dynamic AI Rendering
+
+</div>
+
+<div class="card-description">
+
+Structured JSON schema parsing
+with semantic component generation,
+automatic layout rendering,
+and executable HTML slide generation.
+
+</div>
+
+<a class="button"
+
+href="SHOWCASE.md">
+
+View Showcase
+
+</a>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
 <div class="footer">
 
-Scientific Cognitive Rendering · AquaCrop · Remote Sensing · Digital Twin
-
-</div>
-
-</div>
+Executable AI-native Presentation Rendering System
 
 </div>
 
 </body>
+
 </html>
