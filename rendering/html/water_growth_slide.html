@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Water Affects Crop Growth</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#f4f7fb;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.slide{
+    width:1600px;
+    height:900px;
+    margin:auto;
+    background:white;
+    position:relative;
+    overflow:hidden;
+}
+
+/* Top Title */
+
+.title{
+    position:absolute;
+    top:50px;
+    left:80px;
+
+    font-size:46px;
+    font-weight:700;
+    color:#0b3d91;
+}
+
+.subtitle{
+    position:absolute;
+    top:115px;
+    left:82px;
+
+    font-size:22px;
+    color:#5f6b7a;
+}
+
+/* Mechanism Flow */
+
+.flow-container{
+    position:absolute;
+    top:280px;
+    left:120px;
+
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+/* Boxes */
+
+.box{
+    width:220px;
+    height:120px;
+
+    border-radius:22px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    font-size:28px;
+    font-weight:600;
+
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+}
+
+/* Semantic Colors */
+
+.water{
+    background:#dbeeff;
+    color:#0066cc;
+}
+
+.root{
+    background:#e4f7e8;
+    color:#1f8a4d;
+}
+
+.transpiration{
+    background:#fff4d6;
+    color:#d98a00;
+}
+
+.biomass{
+    background:#dff7ea;
+    color:#1f8a4d;
+}
+
+.yield{
+    background:#d7f0ff;
+    color:#005bbb;
+}
+
+/* Arrow */
+
+.arrow{
+    font-size:48px;
+    color:#7aa7d9;
+    font-weight:700;
+}
+
+/* Bottom Explanation */
+
+.note{
+    position:absolute;
+
+    left:110px;
+    bottom:120px;
+
+    width:1320px;
+
+    font-size:28px;
+    line-height:1.7;
+
+    color:#334155;
+}
+
+/* GIS Note */
+
+.gis-note{
+    position:absolute;
+
+    right:90px;
+    top:160px;
+
+    width:320px;
+
+    background:#eef5ff;
+
+    border-left:8px solid #3b82f6;
+
+    padding:24px;
+
+    border-radius:18px;
+
+    box-shadow:0 6px 14px rgba(0,0,0,0.06);
+}
+
+.gis-title{
+    font-size:24px;
+    font-weight:700;
+    color:#0b3d91;
+
+    margin-bottom:12px;
+}
+
+.gis-text{
+    font-size:19px;
+    line-height:1.6;
+    color:#334155;
+}
+
+/* Footer */
+
+.footer{
+    position:absolute;
+
+    bottom:35px;
+    right:70px;
+
+    font-size:18px;
+    color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="slide">
+
+    <div class="title">
+        How Water Affects Crop Growth
+    </div>
+
+    <div class="subtitle">
+        Mechanism-oriented teaching slide for undergraduate cognition
+    </div>
+
+    <div class="gis-note">
+
+        <div class="gis-title">
+            GIS Connection
+        </div>
+
+        <div class="gis-text">
+            Water availability varies spatially across fields.
+            Remote sensing and GIS help monitor crop water stress
+            and support precision agriculture decisions.
+        </div>
+
+    </div>
+
+    <div class="flow-container">
+
+        <div class="box water">
+            Soil Water
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="box root">
+            Root Uptake
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="box transpiration">
+            Transpiration
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="box biomass">
+            Biomass
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="box yield">
+            Yield
+        </div>
+
+    </div>
+
+    <div class="note">
+
+        Water moves from the soil into plant roots, supports leaf transpiration,
+        and ultimately influences biomass accumulation and crop yield.
+        Understanding this mechanism helps explain why irrigation management
+        and spatial monitoring are essential in digital agriculture.
+
+    </div>
+
+    <div class="footer">
+        AI-native Cognitive Presentation Rendering
+    </div>
+
+</div>
+
+</body>
+</html>
