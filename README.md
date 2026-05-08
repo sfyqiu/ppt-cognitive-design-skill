@@ -1,300 +1,254 @@
 # PPT Cognitive Design Skill
 
-PowerPoint is not decoration.
-
-It is cognitive experience engineering.
+> An AI-native presentation intelligence framework for cognitively optimized communication.
 
 ---
 
 # Overview
 
-PPT Cognitive Design Skill is a reusable cognitive-driven presentation design framework for:
+PPT Cognitive Design Skill is a research-oriented AI framework designed to transform presentation generation from:
 
-* Codex
-* AI agents
-* teaching presentations
-* academic presentations
-* interview PPTs
-* defense presentations
-* storytelling-oriented slide systems
+- slide decoration
 
-The framework focuses on:
+into:
 
-* audience cognition
-* narrative structure
-* visual semantics
-* cognitive-load optimization
-* teaching-oriented explanation
-* presentation reasoning workflows
+- cognitive communication intelligence.
 
-Rather than template beautification alone.
+The framework integrates:
+
+- audience-centered reasoning
+- narrative intelligence
+- semantic visual systems
+- cognitive optimization
+- explainable presentation AI
+- multi-agent orchestration
+
+The goal is to help AI systems generate presentations that audiences understand naturally.
 
 ---
 
 # Core Philosophy
 
-A good presentation should not attempt
-to show everything the presenter knows.
+Presentation quality is NOT determined by:
 
-It should help the audience:
+- animation complexity
+- decorative density
+- visual overload
 
-* understand quickly
-* follow naturally
-* remember key ideas
-* maintain cognitive comfort
+Presentation quality IS determined by:
 
-This repository treats presentation design as:
+- audience understanding
+- cognitive clarity
+- narrative continuity
+- semantic communication
+- explanation efficiency
 
-# Cognitive Experience Engineering
+---
+
+# Core Capabilities
+
+## Audience-centered Reasoning
+
+- audience cognition modeling
+- expertise estimation
+- pacing adaptation
+- terminology control
+
+---
+
+## Narrative Intelligence
+
+- storyline construction
+- narrative pacing
+- transition optimization
+- progressive explanation
+
+---
+
+## Cognitive Optimization
+
+- cognitive load reduction
+- knowledge compression
+- readability optimization
+- hierarchy stabilization
+
+---
+
+## Semantic Visual Intelligence
+
+- semantic color systems
+- visual hierarchy reasoning
+- diagram-oriented communication
+- visual rhythm optimization
+
+---
+
+## Multi-agent Presentation Intelligence
+
+Supports:
+
+- teaching presentation agents
+- academic defense agents
+- scientific storytelling agents
+- business pitch agents
 
 ---
 
 # Framework Architecture
 
 ```text
-ppt-cognitive-design-skill/
-│
-├── SKILL.md
-│   Core capability definition
-│
-├── workflows/
-│   Presentation reasoning workflows
-│
-├── examples/
-│   Real-world cognitive design cases
-│
-├── templates/
-│   Slide-type layout strategies
-│
-├── prompts/
-│   Prompt execution systems
-│
-├── references/
-│   Design theory references
-│
-└── scripts/
-    Automation and future agents
+User Request
+    ↓
+Requirement Parsing
+    ↓
+Audience Reasoning
+    ↓
+Scenario Routing
+    ↓
+Narrative Planning
+    ↓
+Slide Planning
+    ↓
+Visual Semantic Reasoning
+    ↓
+Cognitive Optimization
+    ↓
+Evaluation & Validation
+    ↓
+Structured Presentation Output
 ```
 
 ---
 
-# Key Capabilities
-
-## 1. Scenario-aware Presentation Design
-
-The framework adapts to:
-
-* teaching interviews
-* academic defenses
-* undergraduate lectures
-* business storytelling
-* research presentations
-
-Different scenarios require:
-
-* different cognitive density
-* different narrative pacing
-* different visual strategies
-
----
-
-## 2. Audience-centered Design
-
-Presentation structure is generated based on:
-
-* audience expertise
-* cognitive tolerance
-* attention span
-* educational background
-
-The audience becomes the center
-of presentation design.
-
----
-
-## 3. Cognitive Load Optimization
-
-The framework continuously evaluates:
-
-* information density
-* layout complexity
-* text overload
-* visual competition
-
-Goal:
-
-Audience should understand
-the main idea within seconds.
-
----
-
-## 4. Visual Semantic Mapping
-
-Visual elements are treated as semantic language.
-
-Examples:
-
-* green → vegetation / ecology
-* blue → GIS / remote sensing / technology
-* orange → warning / emphasis
-* white space → cognitive breathing room
-
-Colors and layout are used
-to communicate meaning.
-
----
-
-## 5. Workflow-driven Presentation Reasoning
-
-This framework does not rely only on prompts.
-
-It uses structured workflows to guide:
-
-* requirement analysis
-* audience modeling
-* narrative generation
-* layout strategy
-* cognitive optimization
-* final validation
-
----
-
-# Design Principles
-
-## One Slide = One Cognitive Objective
-
-Every slide should contain:
-
-* one focal point
-* one teaching objective
-* one key takeaway
-
-Avoid:
-
-* information stacking
-* multi-focus layouts
-* excessive academic clutter
-
----
-
-## Reduction is Better than Addition
-
-When uncertain:
-
-simplify.
-
-Reduce:
-
-* unnecessary text
-* redundant graphics
-* excessive colors
-* decorative noise
-
----
-
-## Teaching-first Thinking
-
-Teaching-oriented PPTs should prioritize:
-
-* understanding
-* explanation
-* visual guidance
-* progressive cognition
-
-NOT academic intimidation.
-
----
-
-# Existing Modules
-
-## workflows/
-
-Defines AI reasoning sequence for:
-
-* teaching PPTs
-* interview presentations
-* future defense systems
-
----
-
-## examples/
-
-Stores real cognitive-driven presentation cases.
-
-Current example:
-
-* teaching interview presentation case
-
----
-
-## templates/
-
-Reusable slide-type structures:
-
-* cover
-* flow
-* introduction
-* results
-* summary
-
----
-
-# Future Roadmap
-
-Planned future modules:
+# Repository Structure
 
 ```text
-agents/
-├── narrative_agent.py
-├── layout_agent.py
-├── cognition_agent.py
-└── visual_agent.py
+reasoning/      → cognitive reasoning systems
+decision/       → routing and strategy systems
+evaluation/     → evaluation and benchmark systems
+prompts/        → AI execution prompts
+templates/      → slide-type intelligence
+examples/       → workflow demonstrations
+visual/         → semantic visual systems
 ```
 
-Future capabilities:
+---
 
-* automatic slide planning
-* automatic narrative generation
-* audience-adaptive layouts
-* teaching-oriented visual generation
-* presentation cognition evaluation
+# Example Use Cases
+
+The framework supports:
+
+- teaching interviews
+- undergraduate teaching PPTs
+- academic defense presentations
+- scientific storytelling
+- interdisciplinary communication
+- business presentations
+- technical training systems
 
 ---
 
-# Vision
+# Quick Start
 
-This repository is NOT intended to become:
+## 1. Read the framework overview
 
-* a PPT template collection
-* a decoration toolkit
-* a slide beautification system
-
-The goal is to build:
-
-# A Presentation Intelligence Framework
-
-for AI-native presentation design.
+```text
+README.md
+```
 
 ---
 
-# Author Perspective
+## 2. Understand the architecture
 
-Presentation design is not
-graphic decoration.
+```text
+SYSTEM_ARCHITECTURE.md
+SYSTEM_PIPELINE.md
+```
+
+---
+
+## 3. Learn the interaction protocol
+
+```text
+INPUT_PROTOCOL.md
+```
+
+---
+
+## 4. Explore examples
+
+```text
+SHOWCASE.md
+examples/
+```
+
+---
+
+# Recommended Reading Paths
+
+## For Researchers
+
+```text
+RESEARCH_POSITIONING.md
+BENCHMARKS.md
+VALIDATION.md
+VISION.md
+```
+
+---
+
+## For Contributors
+
+```text
+CONTRIBUTING.md
+REPOSITORY_MAP.md
+```
+
+---
+
+## For Developers
+
+```text
+DEPLOYMENT.md
+prompts/
+reasoning/
+evaluation/
+```
+
+---
+
+# Research Positioning
+
+The framework lies at the intersection of:
+
+```text
+AI
++ Cognitive Science
++ Educational Communication
++ Narrative Intelligence
++ Human-centered Design
+```
+
+---
+
+# Long-term Vision
+
+The framework aims to evolve toward:
+
+- adaptive presentation agents
+- multimodal communication intelligence
+- cognition-aware educational AI
+- explainable presentation systems
+- autonomous presentation orchestration
+
+---
+
+# Final Principle
+
+The future of presentation intelligence is not:
+
+better slides.
 
 It is:
 
-* cognition management
-* narrative engineering
-* visual communication
-* teaching psychology
-* audience guidance
-
-A presentation succeeds
-when the audience understands effortlessly.
-
----
-
-# License
-
-MIT License
+better understanding.
