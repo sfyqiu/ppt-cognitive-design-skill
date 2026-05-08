@@ -1,210 +1,261 @@
-# Showcase
+# PPT Cognitive Design Skill — Showcase
 
-This document demonstrates what the PPT Cognitive Design Skill framework can do.
-
-The framework is designed as:
-
-an AI-native presentation intelligence system.
-
-Its purpose is NOT to generate decorative slides.
-
-Its purpose is to optimize:
-
-- audience understanding
-- communication clarity
-- cognitive efficiency
-- narrative continuity
-- semantic visual reasoning
+AI-native Cognitive Presentation Generation Framework
 
 ---
 
-# Example Scenario
+# Overview
 
-## User Requirement
+PPT Cognitive Design Skill is an AI-native presentation intelligence framework designed to transform:
+
+- reasoning
+- narrative cognition
+- semantic communication
+- layout intelligence
+
+into:
+
+- cognitively optimized presentation structures
+- adaptive visual rendering
+- AI-generated presentation pages
+
+The system focuses on:
+
+human understanding efficiency
+
+rather than decorative slide generation.
+
+---
+
+# Core Vision
+
+Traditional AI slide tools focus on:
+
+- beautification
+- template filling
+- visual decoration
+
+This framework focuses on:
+
+- cognitive communication
+- audience reasoning
+- narrative hierarchy
+- semantic rendering
+- adaptive layout intelligence
+
+---
+
+# Framework Architecture
+
+## AI-native Presentation Architecture
+
+![Framework Architecture](assets/framework_architecture.png)
+
+---
+
+# Cognitive Rendering Pipeline
 
 ```text
-I need a 15-minute teaching interview presentation.
-
-My background is agricultural engineering,
-but the department focuses on GIS and spatial information engineering.
-
-I want the presentation to appear:
-
-- professional
-- interdisciplinary
-- teaching-oriented
-- visually clean
-- cognitively clear
-
-I also want to reduce questioning risk.
+User Requirement
+    ↓
+Audience Reasoning
+    ↓
+Narrative Planning
+    ↓
+Layout Intelligence
+    ↓
+JSON Slide Schema
+    ↓
+Semantic Rendering Engine
+    ↓
+Executable HTML Presentation
 ```
 
 ---
 
-# Framework Reasoning Process
+# Example JSON Slide Schema
 
-## Step 1 — Requirement Parsing
+```json
+{
+  "slide_type": "mechanism_flow",
 
-The framework identifies:
+  "title": "How Water Affects Crop Growth",
 
-- teaching interview scenario
-- interdisciplinary positioning
-- undergraduate-oriented communication
-- scientific teaching requirements
-- questioning-risk constraints
+  "layout": "horizontal_flow",
 
----
+  "components": [
 
-## Step 2 — Audience Reasoning
+    {
+      "type": "box",
+      "label": "Soil Water",
+      "semantic": "water"
+    },
 
-The framework infers:
+    {
+      "type": "arrow",
+      "label": "→"
+    },
 
-- mixed expertise audience
-- undergraduate cognition expectations
-- teaching evaluation focus
-- low tolerance for excessive abstraction
+    {
+      "type": "box",
+      "label": "Root Uptake",
+      "semantic": "growth"
+    }
 
-The framework therefore reduces:
-
-- technical overload
-- dense terminology
-- excessive remote sensing emphasis
-
----
-
-## Step 3 — Agent Routing
-
-The framework activates:
-
-```text
-Teaching Presentation Agent
-+ Scientific Storytelling Agent
-+ Academic Presentation Agent
-```
-
-Purpose:
-
-balance:
-
-- teaching clarity
-- scientific credibility
-- interdisciplinary positioning
-
----
-
-## Step 4 — Narrative Planning
-
-Generated narrative structure:
-
-```text
-Background
-    ↓
-Scientific Problem
-    ↓
-Mechanism Explanation
-    ↓
-Digital Agriculture Integration
-    ↓
-Spatial Information Application
-    ↓
-Teaching-oriented Summary
-```
-
-Purpose:
-
-maintain progressive cognition.
-
----
-
-## Step 5 — Slide Planning
-
-Generated slide system:
-
-1. Cover Slide
-2. Positioning Slide
-3. Background Slide
-4. Mechanism Slide
-5. Digital Agriculture Slide
-6. GIS Application Slide
-7. Summary Slide
-8. Closing Slide
-
----
-
-## Step 6 — Visual Semantic Strategy
-
-Recommended semantic colors:
-
-- blue → GIS / professionalism
-- green → agriculture / ecology
-- orange → emphasis
-- white → cognitive breathing space
-
-Recommended visual strategy:
-
-- restrained professionalism
-- strong whitespace
-- diagram-centered explanation
-- stable hierarchy
-
----
-
-## Step 7 — Cognitive Optimization
-
-The framework automatically:
-
-- reduces terminology density
-- separates dense mechanisms
-- increases diagram explanation
-- stabilizes pacing
-- controls visual hierarchy
-
-Purpose:
-
-maximize audience understanding.
-
----
-
-# Example Framework Output
-
-```text
-Presentation Positioning:
-Interdisciplinary teaching-oriented scientific communication
-
-Audience Analysis:
-Undergraduate-friendly + committee-oriented
-
-Narrative Strategy:
-Progressive mechanism storytelling
-
-Visual Style:
-Blue-green restrained academic style
-
-Cognitive Optimization:
-Low-density explanation with semantic diagrams
+  ]
+}
 ```
 
 ---
 
-# Framework Advantages
+# Automatic Rendering Demo
 
-Compared with traditional PPT systems,
-the framework provides:
+The framework supports:
 
-- audience adaptation
-- cognitive optimization
-- presentation reasoning
-- explainable design logic
-- narrative intelligence
-- risk-control awareness
+```text
+JSON
+→
+Automatic HTML Rendering
+→
+Executable Presentation Slides
+```
+
+---
+
+# Rendering Demonstration
+
+## Example Rendered Slide
+
+The system automatically renders:
+
+- semantic mechanism diagrams
+- adaptive layouts
+- audience-oriented visual hierarchy
+- cognitive spacing systems
+
+using structured JSON schemas.
+
+---
+
+# Rendering Intelligence
+
+The rendering engine supports:
+
+- semantic color mapping
+- adaptive layout balancing
+- collision avoidance
+- responsive positioning
+- hierarchy-aware rendering
+
+---
+
+# Current System Modules
+
+| Module | Status |
+|---|---|
+| Audience Reasoning Engine | ✅ |
+| Narrative Planning Engine | ✅ |
+| Layout Intelligence Engine | ✅ |
+| Semantic Rendering Engine | ✅ |
+| JSON Slide Schema | ✅ |
+| HTML Rendering Engine | ✅ |
+| Automatic Rendering Demo | ✅ |
+
+---
+
+# Research Direction
+
+This framework explores:
+
+- AI-native communication systems
+- cognitive presentation intelligence
+- semantic layout generation
+- adaptive educational visualization
+- machine-readable narrative rendering
+
+---
+
+# Future Development
+
+Planned future capabilities:
+
+- SVG rendering engine
+- automatic PPTX export
+- responsive multi-slide generation
+- interactive presentation systems
+- AI-controlled storytelling
+- adaptive educational rendering
+
+---
+
+# Educational Focus
+
+The framework is especially designed for:
+
+- teaching presentations
+- scientific communication
+- mechanism explanation
+- cognitive visualization
+- educational storytelling
+
+---
+
+# Long-term Goal
+
+The long-term vision is to build:
+
+an AI-native presentation operating system
+
+capable of generating:
+
+- structured slides
+- semantic visual systems
+- adaptive communication layouts
+- audience-aware presentation flows
+
+from high-level human intent.
+
+---
+
+# Philosophy
+
+Good presentations are not decorative artifacts.
+
+They are:
+
+cognitive communication systems.
+
+---
+
+# Project Status
+
+Current stage:
+
+```text
+Prototype System
+```
+
+The framework already supports:
+
+```text
+Reasoning
+→ Narrative
+→ Layout
+→ JSON
+→ Automatic HTML Rendering
+```
 
 ---
 
 # Final Principle
 
-The framework succeeds when:
+The goal is not:
 
-complex ideas become
-clear,
-structured,
-and cognitively understandable.
+to generate prettier slides.
+
+The goal is:
+
+to help humans understand complex knowledge
+more clearly,
+more efficiently,
+and with lower cognitive burden.
