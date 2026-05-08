@@ -1,124 +1,143 @@
-<p align="center">
-  <img src="assets/framework_architecture.png" width="100%">
-</p>
 # PPT Cognitive Design Skill
 
-> An AI-native presentation intelligence framework for cognitively optimized communication.
+AI-native Cognitive Presentation Generation Framework
 
 ---
 
 # Overview
 
-PPT Cognitive Design Skill is a research-oriented AI framework designed to transform presentation generation from:
+PPT Cognitive Design Skill is an AI-native presentation intelligence framework designed to transform:
 
-- slide decoration
+- audience cognition
+- narrative reasoning
+- semantic communication
+- layout intelligence
 
 into:
 
-- cognitive communication intelligence.
+- cognitively optimized presentations
+- adaptive visual structures
+- executable AI-rendered slides
 
-The framework integrates:
+The framework focuses on:
 
-- audience-centered reasoning
-- narrative intelligence
-- semantic visual systems
-- cognitive optimization
-- explainable presentation AI
-- multi-agent orchestration
+human understanding efficiency
 
-The goal is to help AI systems generate presentations that audiences understand naturally.
+rather than decorative slide beautification.
 
 ---
 
-# Core Philosophy
+# Core Vision
 
-Presentation quality is NOT determined by:
+Traditional AI presentation tools mainly focus on:
 
-- animation complexity
-- decorative density
-- visual overload
+- template filling
+- decorative beautification
+- visual styling
 
-Presentation quality IS determined by:
+This framework focuses on:
 
-- audience understanding
-- cognitive clarity
-- narrative continuity
-- semantic communication
-- explanation efficiency
-
----
-
-# Core Capabilities
-
-## Audience-centered Reasoning
-
-- audience cognition modeling
-- expertise estimation
-- pacing adaptation
-- terminology control
+- cognitive communication
+- audience-centered explanation
+- narrative structure
+- semantic rendering
+- adaptive layout intelligence
 
 ---
 
-## Narrative Intelligence
+# AI-native Presentation Pipeline
 
-- storyline construction
-- narrative pacing
-- transition optimization
-- progressive explanation
-
----
-
-## Cognitive Optimization
-
-- cognitive load reduction
-- knowledge compression
-- readability optimization
-- hierarchy stabilization
-
----
-
-## Semantic Visual Intelligence
-
-- semantic color systems
-- visual hierarchy reasoning
-- diagram-oriented communication
-- visual rhythm optimization
-
----
-
-## Multi-agent Presentation Intelligence
-
-Supports:
-
-- teaching presentation agents
-- academic defense agents
-- scientific storytelling agents
-- business pitch agents
+```text
+User Requirement
+    ↓
+Audience Reasoning
+    ↓
+Narrative Planning
+    ↓
+Layout Intelligence
+    ↓
+JSON Slide Schema
+    ↓
+Semantic Rendering Engine
+    ↓
+Executable HTML Presentation
+```
 
 ---
 
 # Framework Architecture
 
+![Framework Architecture](assets/framework_architecture.png)
+
+---
+
+# Current System Capabilities
+
+The framework currently supports:
+
+| Module | Status |
+|---|---|
+| Audience Reasoning Engine | ✅ |
+| Narrative Planning Engine | ✅ |
+| Layout Intelligence Engine | ✅ |
+| Semantic Rendering Engine | ✅ |
+| JSON Slide Schema | ✅ |
+| HTML Rendering Engine | ✅ |
+| Automatic Rendering Demo | ✅ |
+
+---
+
+# Rendering Demonstration
+
+The framework already supports:
+
 ```text
-User Request
-    ↓
-Requirement Parsing
-    ↓
-Audience Reasoning
-    ↓
-Scenario Routing
-    ↓
-Narrative Planning
-    ↓
-Slide Planning
-    ↓
-Visual Semantic Reasoning
-    ↓
-Cognitive Optimization
-    ↓
-Evaluation & Validation
-    ↓
-Structured Presentation Output
+JSON
+→
+Automatic HTML Rendering
+→
+Executable Presentation Slides
+```
+
+---
+
+## Example Rendered Slide
+
+![JSON Rendering Demo](assets/json_to_html_demo.png)
+
+---
+
+# Example JSON Slide Schema
+
+```json
+{
+  "slide_type": "mechanism_flow",
+
+  "title": "How Water Affects Crop Growth",
+
+  "layout": "horizontal_flow",
+
+  "components": [
+
+    {
+      "type": "box",
+      "label": "Soil Water",
+      "semantic": "water"
+    },
+
+    {
+      "type": "arrow",
+      "label": "→"
+    },
+
+    {
+      "type": "box",
+      "label": "Root Uptake",
+      "semantic": "growth"
+    }
+
+  ]
+}
 ```
 
 ---
@@ -126,132 +145,149 @@ Structured Presentation Output
 # Repository Structure
 
 ```text
-reasoning/      → cognitive reasoning systems
-decision/       → routing and strategy systems
-evaluation/     → evaluation and benchmark systems
-prompts/        → AI execution prompts
-templates/      → slide-type intelligence
-examples/       → workflow demonstrations
-visual/         → semantic visual systems
-```
-
----
-
-# Example Use Cases
-
-The framework supports:
-
-- teaching interviews
-- undergraduate teaching PPTs
-- academic defense presentations
-- scientific storytelling
-- interdisciplinary communication
-- business presentations
-- technical training systems
-
----
-
-# Quick Start
-
-## 1. Read the framework overview
-
-```text
-README.md
-```
-
----
-
-## 2. Understand the architecture
-
-```text
-SYSTEM_ARCHITECTURE.md
-SYSTEM_PIPELINE.md
-```
-
----
-
-## 3. Learn the interaction protocol
-
-```text
-INPUT_PROTOCOL.md
-```
-
----
-
-## 4. Explore examples
-
-```text
-SHOWCASE.md
-examples/
-```
-
----
-
-# Recommended Reading Paths
-
-## For Researchers
-
-```text
-RESEARCH_POSITIONING.md
-BENCHMARKS.md
-VALIDATION.md
-VISION.md
-```
-
----
-
-## For Contributors
-
-```text
-CONTRIBUTING.md
-REPOSITORY_MAP.md
-```
-
----
-
-## For Developers
-
-```text
-DEPLOYMENT.md
-prompts/
 reasoning/
+narrative/
+decision/
+rendering/
 evaluation/
+prompts/
+examples/
+assets/
 ```
 
 ---
 
-# Research Positioning
+# Educational & Research Focus
 
-The framework lies at the intersection of:
+The framework is designed for:
 
-```text
-AI
-+ Cognitive Science
-+ Educational Communication
-+ Narrative Intelligence
-+ Human-centered Design
-```
+- educational presentations
+- scientific storytelling
+- mechanism explanation
+- AI-native communication systems
+- cognitive visualization
+- adaptive teaching systems
+
+---
+
+# Rendering Intelligence
+
+The rendering engine explores:
+
+- semantic color systems
+- adaptive layouts
+- collision avoidance
+- hierarchy-aware rendering
+- cognitive spacing optimization
 
 ---
 
 # Long-term Vision
 
-The framework aims to evolve toward:
+The long-term goal is to build:
 
-- adaptive presentation agents
-- multimodal communication intelligence
-- cognition-aware educational AI
-- explainable presentation systems
-- autonomous presentation orchestration
+an AI-native presentation operating system
+
+capable of generating:
+
+- structured presentation flows
+- semantic visual systems
+- adaptive layouts
+- executable slides
+
+from high-level human intent.
+
+---
+
+# Future Development
+
+Planned future capabilities include:
+
+- SVG rendering engine
+- automatic PPTX export
+- multi-slide generation
+- interactive presentations
+- adaptive audience rendering
+- AI storytelling orchestration
+
+---
+
+# Philosophy
+
+Good presentations are not decorative artifacts.
+
+They are:
+
+cognitive communication systems.
+
+---
+
+# Project Status
+
+Current stage:
+
+```text
+Executable Prototype System
+```
+
+The framework already supports:
+
+```text
+Reasoning
+→ Narrative
+→ Layout
+→ JSON
+→ Automatic HTML Rendering
+```
+
+---
+
+# Showcase
+
+See:
+
+```text
+SHOWCASE.md
+```
+
+for:
+
+- rendering demonstrations
+- framework architecture
+- JSON schema examples
+- rendering pipeline
+- executable prototype examples
+
+---
+
+# Disclaimer
+
+This repository is intended for:
+
+- research
+- educational exploration
+- AI presentation system studies
+- cognitive communication experiments
+
+Commercial deployment and high-risk usage should be independently evaluated by users.
+
+---
+
+# License
+
+MIT License
 
 ---
 
 # Final Principle
 
-The future of presentation intelligence is not:
+The goal is NOT:
 
-better slides.
+to generate prettier slides.
 
-It is:
+The goal is:
 
-better understanding.
+to help humans communicate complex knowledge
+more clearly,
+more efficiently,
+and with lower cognitive burden.
