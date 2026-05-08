@@ -9,167 +9,235 @@
 
 body{
     margin:0;
-    background:#f4f7fb;
+    background:#eef2f7;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .slide{
+
     width:1600px;
     height:900px;
+
     margin:auto;
+
     background:white;
+
     position:relative;
+
     overflow:hidden;
 }
 
-/* Top Title */
+/* =========================
+   TITLE SYSTEM
+========================= */
 
 .title{
-    position:absolute;
-    top:50px;
-    left:80px;
 
-    font-size:46px;
+    position:absolute;
+
+    top:55px;
+    left:85px;
+
+    font-size:52px;
     font-weight:700;
+
     color:#0b3d91;
 }
 
 .subtitle{
-    position:absolute;
-    top:115px;
-    left:82px;
 
-    font-size:22px;
-    color:#5f6b7a;
+    position:absolute;
+
+    top:125px;
+    left:88px;
+
+    font-size:23px;
+
+    color:#64748b;
 }
 
-/* Mechanism Flow */
+/* =========================
+   FLOW SYSTEM
+========================= */
+
+.flow-wrapper{
+
+    position:absolute;
+
+    top:310px;
+    left:90px;
+
+    width:1040px;
+}
 
 .flow-container{
-    position:absolute;
-    top:280px;
-    left:120px;
 
     display:flex;
+
+    justify-content:space-between;
+
     align-items:center;
-    gap:40px;
 }
 
-/* Boxes */
+/* =========================
+   BOXES
+========================= */
 
 .box{
-    width:220px;
-    height:120px;
+
+    width:170px;
+    height:105px;
 
     border-radius:22px;
 
     display:flex;
+
     align-items:center;
     justify-content:center;
 
     text-align:center;
 
-    font-size:28px;
-    font-weight:600;
+    font-size:22px;
+    font-weight:700;
 
     box-shadow:0 8px 18px rgba(0,0,0,0.08);
+
+    flex-shrink:0;
 }
 
 /* Semantic Colors */
 
 .water{
+
     background:#dbeeff;
     color:#0066cc;
 }
 
 .root{
-    background:#e4f7e8;
+
+    background:#e3f5e8;
     color:#1f8a4d;
 }
 
 .transpiration{
-    background:#fff4d6;
-    color:#d98a00;
+
+    background:#fff3d4;
+    color:#d99100;
 }
 
 .biomass{
-    background:#dff7ea;
+
+    background:#dff5e7;
     color:#1f8a4d;
 }
 
 .yield{
-    background:#d7f0ff;
+
+    background:#d7efff;
     color:#005bbb;
 }
 
-/* Arrow */
+/* =========================
+   ARROW
+========================= */
 
 .arrow{
-    font-size:48px;
+
+    font-size:40px;
+
     color:#7aa7d9;
+
     font-weight:700;
+
+    margin:0 10px;
 }
 
-/* Bottom Explanation */
+/* =========================
+   GIS PANEL
+========================= */
 
-.note{
+.gis-panel{
+
     position:absolute;
 
-    left:110px;
-    bottom:120px;
-
-    width:1320px;
-
-    font-size:28px;
-    line-height:1.7;
-
-    color:#334155;
-}
-
-/* GIS Note */
-
-.gis-note{
-    position:absolute;
-
+    top:210px;
     right:90px;
-    top:160px;
 
-    width:320px;
+    width:300px;
 
     background:#eef5ff;
 
     border-left:8px solid #3b82f6;
 
-    padding:24px;
+    border-radius:22px;
 
-    border-radius:18px;
+    padding:28px;
 
-    box-shadow:0 6px 14px rgba(0,0,0,0.06);
+    box-shadow:0 8px 18px rgba(0,0,0,0.06);
 }
 
 .gis-title{
-    font-size:24px;
+
+    font-size:28px;
     font-weight:700;
+
     color:#0b3d91;
 
-    margin-bottom:12px;
+    margin-bottom:16px;
 }
 
 .gis-text{
-    font-size:19px;
-    line-height:1.6;
+
+    font-size:20px;
+
+    line-height:1.7;
+
     color:#334155;
 }
 
-/* Footer */
+/* =========================
+   EXPLANATION BLOCK
+========================= */
+
+.note{
+
+    position:absolute;
+
+    left:100px;
+    bottom:150px;
+
+    width:1220px;
+
+    font-size:29px;
+
+    line-height:1.8;
+
+    color:#334155;
+}
+
+/* =========================
+   EMPHASIS
+========================= */
+
+.highlight{
+
+    color:#0b3d91;
+    font-weight:700;
+}
+
+/* =========================
+   FOOTER
+========================= */
 
 .footer{
+
     position:absolute;
 
     bottom:35px;
-    right:70px;
+    right:60px;
 
     font-size:18px;
+
     color:#94a3b8;
 }
 
@@ -180,6 +248,8 @@ body{
 
 <div class="slide">
 
+    <!-- TITLE -->
+
     <div class="title">
         How Water Affects Crop Growth
     </div>
@@ -188,60 +258,81 @@ body{
         Mechanism-oriented teaching slide for undergraduate cognition
     </div>
 
-    <div class="gis-note">
+    <!-- GIS PANEL -->
+
+    <div class="gis-panel">
 
         <div class="gis-title">
             GIS Connection
         </div>
 
         <div class="gis-text">
-            Water availability varies spatially across fields.
-            Remote sensing and GIS help monitor crop water stress
-            and support precision agriculture decisions.
+
+            Water availability varies spatially across agricultural fields.
+
+            Remote sensing and GIS technologies help identify crop water stress,
+            monitor irrigation patterns,
+            and support precision agriculture management.
+
         </div>
 
     </div>
 
-    <div class="flow-container">
+    <!-- FLOW SYSTEM -->
 
-        <div class="box water">
-            Soil Water
-        </div>
+    <div class="flow-wrapper">
 
-        <div class="arrow">→</div>
+        <div class="flow-container">
 
-        <div class="box root">
-            Root Uptake
-        </div>
+            <div class="box water">
+                Soil Water
+            </div>
 
-        <div class="arrow">→</div>
+            <div class="arrow">→</div>
 
-        <div class="box transpiration">
-            Transpiration
-        </div>
+            <div class="box root">
+                Root Uptake
+            </div>
 
-        <div class="arrow">→</div>
+            <div class="arrow">→</div>
 
-        <div class="box biomass">
-            Biomass
-        </div>
+            <div class="box transpiration">
+                Transpiration
+            </div>
 
-        <div class="arrow">→</div>
+            <div class="arrow">→</div>
 
-        <div class="box yield">
-            Yield
+            <div class="box biomass">
+                Biomass
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="box yield">
+                Yield
+            </div>
+
         </div>
 
     </div>
+
+    <!-- EXPLANATION -->
 
     <div class="note">
 
-        Water moves from the soil into plant roots, supports leaf transpiration,
-        and ultimately influences biomass accumulation and crop yield.
-        Understanding this mechanism helps explain why irrigation management
-        and spatial monitoring are essential in digital agriculture.
+        Water moves from the soil into plant roots,
+        supports transpiration and photosynthesis,
+        and ultimately influences
+        <span class="highlight">biomass accumulation</span>
+        and
+        <span class="highlight">crop yield</span>.
+
+        Understanding this mechanism explains why irrigation management
+        and spatial monitoring are essential components of digital agriculture.
 
     </div>
+
+    <!-- FOOTER -->
 
     <div class="footer">
         AI-native Cognitive Presentation Rendering
