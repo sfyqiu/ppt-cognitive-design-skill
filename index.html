@@ -15,25 +15,31 @@
 }
 
 body{
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family:"Segoe UI",Arial,sans-serif;
     height:100vh;
     overflow:hidden;
+
     background:
         radial-gradient(circle at top left,#163d7a 0%,#0d1b2a 40%,#08111f 100%);
+
     color:white;
 }
 
-/* 背景动态光晕 */
+/* 动态背景光晕 */
 
 body::before{
     content:"";
     position:absolute;
     width:700px;
     height:700px;
+
     background:rgba(0,140,255,0.15);
+
     filter:blur(120px);
+
     top:-200px;
     left:-200px;
+
     animation:float1 10s infinite alternate ease-in-out;
 }
 
@@ -42,10 +48,14 @@ body::after{
     position:absolute;
     width:600px;
     height:600px;
+
     background:rgba(0,255,180,0.08);
+
     filter:blur(120px);
+
     bottom:-200px;
     right:-200px;
+
     animation:float2 12s infinite alternate ease-in-out;
 }
 
@@ -53,6 +63,7 @@ body::after{
     from{
         transform:translate(0,0);
     }
+
     to{
         transform:translate(80px,50px);
     }
@@ -62,39 +73,46 @@ body::after{
     from{
         transform:translate(0,0);
     }
+
     to{
         transform:translate(-80px,-40px);
     }
 }
 
 .container{
+
     position:relative;
+
     z-index:10;
+
     height:100vh;
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     padding:40px;
 }
 
 .panel{
 
     width:100%;
-    max-width:1100px;
+    max-width:1150px;
 
     background:rgba(255,255,255,0.06);
 
     border:1px solid rgba(255,255,255,0.08);
 
-    backdrop-filter:blur(20px);
+    backdrop-filter:blur(18px);
 
-    border-radius:28px;
+    border-radius:30px;
 
     padding:70px;
 
     box-shadow:
         0 0 40px rgba(0,0,0,0.35);
-
 }
 
 .small-title{
@@ -116,7 +134,7 @@ body::after{
 
     font-weight:800;
 
-    line-height:1.1;
+    line-height:1.08;
 
     margin-bottom:28px;
 }
@@ -134,9 +152,9 @@ body::after{
 
     line-height:1.9;
 
-    max-width:780px;
+    max-width:820px;
 
-    margin-bottom:50px;
+    margin-bottom:55px;
 }
 
 .flow{
@@ -147,14 +165,14 @@ body::after{
 
     gap:18px;
 
-    margin-bottom:60px;
-
     flex-wrap:wrap;
+
+    margin-bottom:60px;
 }
 
 .node{
 
-    padding:16px 26px;
+    padding:16px 28px;
 
     border-radius:16px;
 
@@ -173,12 +191,13 @@ body::after{
 
     background:rgba(0,140,255,0.18);
 
-    box-shadow:0 0 25px rgba(0,140,255,0.25);
+    box-shadow:
+        0 0 24px rgba(0,140,255,0.25);
 }
 
 .arrow{
 
-    font-size:26px;
+    font-size:28px;
 
     color:#66d9ff;
 }
@@ -191,7 +210,8 @@ body::after{
 
     border-radius:18px;
 
-    background:linear-gradient(135deg,#2b6fff,#00b7ff);
+    background:
+        linear-gradient(135deg,#2b6fff,#00b7ff);
 
     color:white;
 
@@ -214,13 +234,28 @@ body::after{
 
 .footer{
 
-    margin-top:50px;
+    margin-top:55px;
 
     color:rgba(255,255,255,0.45);
 
     font-size:15px;
 
     letter-spacing:1px;
+}
+
+@media(max-width:900px){
+
+    .main-title{
+        font-size:48px;
+    }
+
+    .subtitle{
+        font-size:18px;
+    }
+
+    .panel{
+        padding:45px;
+    }
 }
 
 </style>
@@ -239,7 +274,9 @@ DIGITAL AGRICULTURE · SCIENTIFIC VISUALIZATION
 <div class="main-title">
 Agricultural Water-Soil Engineering
 <br>
-<span class="highlight">Scientific Visualization System</span>
+<span class="highlight">
+Scientific Visualization System
+</span>
 </div>
 
 <div class="subtitle">
@@ -274,7 +311,7 @@ and Spatio-temporal Information Science.
 </div>
 
 <a class="button"
-href="scientific_json_renderer.html">
+href="rendering/scientific_json_renderer.html">
 
 Open Scientific Mechanism Demo
 
