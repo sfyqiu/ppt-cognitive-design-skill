@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/framework_architecture.png" width="100%">
+</p>
 # PPT Cognitive Design Skill
 
 > An AI-native presentation intelligence framework for cognitively optimized communication.
